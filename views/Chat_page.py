@@ -10,7 +10,7 @@ import io
 
 # --- Configuration ---
 # URL ของ n8n webhook
-N8N_WEBHOOK_URL = "https://rationally-tough-ant.ngrok-free.app/webhook/d8e551ba-6202-4544-be0a-74294ecff821"
+N8N_WEBHOOK_URL = "https://eminent-wallaby-safely.ngrok-free.app/webhook-test/d8e551ba-6202-4544-be0a-74294ecff821"
 
 def load_chat_history(machine_name):
     """
@@ -252,3 +252,4 @@ if st.button("🗑️ Clear Chat History", type="secondary"):
 if uploaded_file is not None:
 
     st.info(f"📎 Ready to send: {uploaded_file.name} ({uploaded_file.size} bytes)")
+
